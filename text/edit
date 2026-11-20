@@ -1,0 +1,93 @@
+const books = [
+  {
+    ID: 1,
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    category: "Fiction",
+    yearpublished: 1960,
+    pages: 281,
+    available: true
+  },
+  {
+    ID: 2,
+    title: "1984",
+    author: "George Orwell",
+    category: "Dystopian",
+    yearpublished: 1949,
+    pages: 328,
+    available: true
+  },
+  {
+    ID: 3,
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    category: "Classic",
+    yearpublished: 1925,
+    pages: 180,
+    available: false
+  },
+  {
+    ID: 4,
+    title: "Pride and Prejudice",
+    author: "Jane Austen",
+    category: "Romance",
+    yearpublished: 1813,
+    pages: 279,
+    available: true
+  },
+  {
+    ID: 5,
+    title: "The Hobbit",
+    author: "J. R. R. Tolkien",
+    category: "Fantasy",
+    yearpublished: 1937,
+    pages: 310,
+    available: true
+  },
+  {
+    ID: 6,
+    title: "Fahrenheit 451",
+    author: "Ray Bradbury",
+    category: "Dystopian",
+    yearpublished: 1953,
+    pages: 249,
+    available: false
+  },
+  {
+    ID: 7,
+    title: "Moby-Dick",
+    author: "Herman Melville",
+    category: "Adventure",
+    yearpublished: 1851,
+    pages: 635,
+    available: true
+  },
+  {
+    ID: 8,
+    title: "The Catcher in the Rye",
+    author: "J. D. Salinger",
+    category: "Literary Fiction",
+    yearpublished: 1951,
+    pages: 214,
+    available: true
+  },
+  {
+    ID: 9,
+    title: "The Name of the Wind",
+    author: "Patrick Rothfuss",
+    category: "Fantasy",
+    yearpublished: 2007,
+    pages: 662,
+    available: false
+  },
+  {
+    ID: 10,
+    title: "The Art of War",
+    author: "Sun Tzu",
+    category: "Nonfiction",
+    yearpublished: -500,
+    pages: 272,
+    available: true
+  }
+];
+module.exports = books
